@@ -1,0 +1,29 @@
+<script type="text/javascript">
+    RED.nodes.registerType('grove-lcd',{
+        category: 'Intel_gpio',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:0,
+        icon: "file.png",
+        label: function() {
+            return this.name||"grove-lcd";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="grove-lcd">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="grove-lcd">
+    <p>A node that interfaces with the Grove RGB Backlight LCD. Requires a JSON of format:</p>
+	<code>
+	{"r": r_val, "g":g_val, "b":b_bal, "text":"text to print"}
+	</code>
+</script>
