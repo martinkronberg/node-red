@@ -13,7 +13,7 @@
     "node-red"      : {
         "nodes"     : {
             "grove_temp": "grove_temp.js",
-            "grove_lcd": "grove_lcd.js",
+            "grove_lcd": "grove_lcd.js"
         }
     },
     "author": {

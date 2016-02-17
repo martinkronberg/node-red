@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '.',
+1 verbose cli   '-g' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.4
+4 verbose install initial load of C:\Users\mkronbe\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\mkronbe\AppData\Roaming\npm\package.json
+6 silly cache add args [ '.', null ]
+7 verbose cache add spec .
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: '.',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: '.',
+8 silly cache add   spec: 'C:\\Users\\mkronbe\\Documents\\GitHub\\node-red\\intel-iot',
+8 silly cache add   type: 'directory' }
+9 error addLocal Could not install C:\Users\mkronbe\Documents\GitHub\node-red\intel-iot
+10 verbose stack Error: Failed to parse json
+10 verbose stack Trailing comma in object at 17:9
+10 verbose stack         }
+10 verbose stack         ^
+10 verbose stack     at parseError (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:379:11)
+10 verbose stack     at parseJson (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:68:23)
+10 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:48:5
+10 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:76:16
+10 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:380:3)
+11 verbose cwd C:\Users\mkronbe\Documents\GitHub\node-red\intel-iot
+12 error Windows_NT 6.3.9600
+13 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "." "-g"
+14 error node v4.2.4
+15 error npm  v2.14.12
+16 error file C:\Users\mkronbe\Documents\GitHub\node-red\intel-iot\package.json
+17 error code EJSONPARSE
+18 error Failed to parse json
+18 error Trailing comma in object at 17:9
+18 error         }
+18 error         ^
+19 error File: C:\Users\mkronbe\Documents\GitHub\node-red\intel-iot\package.json
+20 error Failed to parse package.json data.
+20 error package.json must be actual JSON, not just JavaScript.
+20 error
+20 error This is not a bug in npm.
+20 error Tell the package author to fix their package.json file. JSON.parse
+21 verbose exit [ 1, true ]
